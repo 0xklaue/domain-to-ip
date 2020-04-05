@@ -3,7 +3,7 @@ Python script to get IPs from domain names
 
 # Usage
 
-python domains-to-ip.py
+python domains-to-ip.py | tee -a <ip-addresses>
 
 Note: Make sure to change the filename from 'domains' to the one that contains your lists of domains.
 
